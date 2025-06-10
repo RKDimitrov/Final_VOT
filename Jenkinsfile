@@ -4,8 +4,8 @@ pipeline {
 
     environment {
         // Define common variables
-        DOCKER_IMAGE_NAME = "Final_VOT"
-        DOCKER_CONTAINER_NAME = "Final_VOT-container"
+        DOCKER_IMAGE_NAME = "finalvot"
+        DOCKER_CONTAINER_NAME = "finalvot-container"
         APP_PORT = "3000"
         HOST_PORT = "8081" // Map container port 3000 to host port 8081
     }
